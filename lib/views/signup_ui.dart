@@ -10,7 +10,20 @@ class SignupUi extends StatefulWidget {
 class _SignupUiState extends State<SignupUi> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.red,
+    return const Scaffold(
+      body: SingleChildScrollView(
+        child: Padding(
+         padding: EdgeInsets.only(top: 35, bottom: 45, left: 30, right: 30
+          ),
+          child: Center(
+            child: Column(
+              children: [
+                
+              ],
+            ),
+          ),
+          ),
+      ),
     );
   }
 }
